@@ -4,7 +4,7 @@ const router = express.Router();
 
 router
 .route("/payment/checkoutSession")
-.post(service.checkout);
+.post(service.checkoutSession);
 
  
 
